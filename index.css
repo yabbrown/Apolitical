@@ -1,0 +1,39 @@
+  .article {
+        background-color: aqua;
+    }
+    
+    nav ul {
+        list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-wrap: wrap;
+      background-color: aqua;
+      color: darkblue;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: aliceblue;
+        color: darkblue;
+    }
+
+    .container {
+        display: grid;
+        grid-gap: 1rem;
+    
+        grid-template-columns: repeat(auto-fit, minmax(240px, .5fr));
+    }
+
+    .main {
+      grid-row: span 2 / auto;
+      grid-column: span 1 / auto;
+    }
+
+    .side-bar {
+      grid-row: span 3 / auto;
+    }
+
+
+
