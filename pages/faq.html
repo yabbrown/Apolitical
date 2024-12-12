@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="faq.css" />
+    <title>FAQ</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <ul class="navlist">
+      <h1 class="logo"><a href="../index.html">APolitical</a></h1>
+      </li>
+        <ul class="navlist"></ul>
+      <li><a href="./faq.html">FAQ</a></li>
+      <li><a href="./aboutUs.html">About Us</a></li>
+  </ul>
+</nav>
+    <div class="faq-container">
+      <h1>Frequently Asked Questions</h1>
+      <div class="faq active">
+        <h3 class="faq-title">
+          What is the purpose of this website?
+        </h3>
+
+        <p class="faq-text">
+          This website is designed to provide unbiased, reliable information and resources on [specific topic or focus of the site]. Our goal is to be a neutral platform that informs and supports users without promoting any political agendas.
+        </p>
+
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <div class="faq">
+        <h3 class="faq-title">
+          Who manages this website?
+        </h3>
+        <p class="faq-text">
+        Two underqualified college students.
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      
+      <div class="faq">
+        <h3 class="faq-title">
+          How can I access the content on this website?
+        </h3>
+        <p class="faq-text">
+          All content is freely accessible to all users. You can browse, read, and explore the resources available without needing to create an account or subscribe.
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      
+      <div class="faq">
+        <h3 class="faq-title">
+          How do you ensure the neutrality of your content?
+        </h3>
+        <p class="faq-text">
+          Our team follows strict editorial standards to ensure that all content is free from political bias, presenting facts and information from a neutral standpoint.
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      
+      <div class="faq">
+        <h3 class="faq-title">
+          Can I share content from this website?
+        </h3>
+        <p class="faq-text">
+          Absolutely! You are welcome to share content via social media, email, or other platforms, provided you credit the website properly. Sharing helps us reach a wider audience and promote neutral dialogue.
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <nav class="footer-nav">
+          <ul>
+            <li><a href="./page.html">Services</a></li>
+            <li><a href="./page.html">Contact</a></li>
+            <li><a href="./page.html">Privacy Policy</a></li>
+          </ul>
+        </nav>     
+        <div class="footer-contact">
+          <p><strong>Contact Us:</strong></p>
+          <p>Email: <a href="mailto:info@example.com">zslomnic@student.touro.edu</a></p>
+          <p>Address: 75-31 150th St., Flushing, NY</p>
+        </div>
+        <div class="footer-social">
+          <a href="https://facebook.com" target="_blank" aria-label="Facebook">Facebook</a>
+          <a href="https://twitter.com" target="_blank" aria-label="Twitter">Twitter</a>
+          <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 APolitical. All Rights Reserved.</p>
+      </div>
+    </footer>  
+    <script>
+    const toggles = document.querySelectorAll('.faq-toggle')
+
+        toggles.forEach(toggle => {
+            toggle.addEventListener('click', () => {
+                toggle.parentNode.classList.toggle('active')
+            })
+        })
+        </script>
+  </body>
+</html>
