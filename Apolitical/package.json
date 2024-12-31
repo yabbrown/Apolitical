@@ -1,0 +1,23 @@
+{
+  "name": "website-project",
+  "version": "1.0.0",
+  "description": "apolitical",
+  "main": "node.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yabbrown/Apolitical.git"
+  },
+  "author": "tzvi slomnicki and yitzchak brown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yabbrown/Apolitical/issues"
+  },
+  "homepage": "https://github.com/yabbrown/Apolitical#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
